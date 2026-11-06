@@ -1,0 +1,8 @@
+tal = [1,2,3,4,5,]
+
+summa = 0
+
+for t in tal:
+    summa += t
+
+print("summan av alla talen i listan är:", summa)

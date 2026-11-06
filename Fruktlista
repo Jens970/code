@@ -1,0 +1,7 @@
+Fruktlista = ["Äpple", "Banan", "Apelsin", "Päron"]
+
+first_fruit = Fruktlista[0]
+last_fruit = Fruktlista[3]
+
+print("första frukten i listan är:", first_fruit)
+print("sista frukten i listan är:", last_fruit)

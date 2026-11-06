@@ -1,0 +1,17 @@
+name_list = []
+
+while True: 
+    name = input("Enter five name (or type 'exit' to finish): ")
+    if name.lower() == 'exit':
+        break
+    name_list.append(name)
+
+while len(name_list) < 5:
+    name = input(" Please enter another name: ")
+    if name.lower() == 'exit':
+        break
+    name_list.append(name)
+
+print("these are the names you have right now in the list:", name_list)
+
+print("The names you chose are:", name_list)
