@@ -1,0 +1,20 @@
+import random
+
+
+slumptal = [random.randint(1, 50) for _ in range(20)]
+
+
+jämna_tal = []
+udda_tal = []
+
+
+for tal in slumptal:
+    if tal % 2 == 0:
+        jämna_tal.append(tal)  
+    else:
+        udda_tal.append(tal)   
+
+
+print(f"Ursprunglig lista: {slumptal}\n")
+print(f"Jämna tal ({len(jämna_tal)} st): {jämna_tal}")
+print(f"Udda tal ({len(udda_tal)} st): {udda_tal}")
